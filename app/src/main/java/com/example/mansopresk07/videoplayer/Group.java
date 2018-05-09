@@ -1,0 +1,28 @@
+package com.example.mansopresk07.videoplayer;
+
+import java.util.ArrayList;
+
+/**
+ * Created by Mansopresk07 on 3/9/2018.
+ */
+
+public class Group {
+    private String Name;
+    private ArrayList<Child> Items;
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        this.Name = name;
+    }
+
+    public ArrayList<Child> getItems() {
+        return Items;
+    }
+
+    public void setItems(ArrayList<Child> Items) {
+        this.Items = Items;
+    }
+}
